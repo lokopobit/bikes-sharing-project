@@ -6,6 +6,11 @@ Build a neural network from scratch to carry out a prediction of daily bike rent
 
 Jupyter notebook flow:  
 
+- Data cleaning was not neccesary due to dataset provided already cleaned.
 - Exploratory data anallysis (EDA) with seaborn or another smart python pacakge as SmartEDA in R (not done yet).
 - Load and prepare the data: create dummy variables, drop unnecesary columns and standardize continuous variables (variables on different scales make it difficult for the network to efficiently learn the correct weights).
-- nm
+- Split the data into training, testing and validation sets.
+- Build the network with the next functions: 
+	- forward pass.
+	- backpropagation.
+	- update weights.
